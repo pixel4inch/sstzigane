@@ -1,13 +1,13 @@
 import React from 'react'
 import PageHeader from '../components/common/PageHeader'
 
-function Contact() {
+function Careers() {
   return (
-   <>
-    <PageHeader pagetitle="Contact"/>
+     <>
+    <PageHeader pagetitle="Careers"/>
     <div>Contact</div>
     </>
   )
 }
 
-export default Contact
+export default Careers
