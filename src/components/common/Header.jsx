@@ -1,4 +1,5 @@
 import logo from '../../assets/img/logo_main.png'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -10,11 +11,11 @@ const Header = () => {
         <div className="container-fluid">
           {/* Logo */}
           <div className="col-auto col-xxl-3 col-lg-3 me-lg-0 me-auto">
-            <a className="navbar-brand" href="/">
+            <NavLink className="navbar-brand" to="/">
               <img src={logo} alt="SST Zigane Logo" className="default-logo" />
               <img src={logo} alt="SST Zigane Logo" className="alt-logo" />
               <img src={logo} alt="SST Zigane Logo" className="mobile-logo" />
-            </a>
+            </NavLink>
           </div>
 
           {/* Menu */}
@@ -36,17 +37,16 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav alt-font">
                 <li className="nav-item">
-                  <a href="/" className="nav-link">Home</a>
+                  <NavLink to="/" className="nav-link">Home</NavLink>
                 </li>
 
                 <li className="nav-item">
-                  <a href="/about" className="nav-link">About</a>
+                  <NavLink to="/about" className="nav-link">About</NavLink>
                 </li>
 
                 {/* Dropdown */}
                 <li className="nav-item dropdown dropdown-with-icon-style02">
-                  <a
-                    href="#"
+                  <NavLink to="#"
                     className="nav-link dropdown-toggle"
                     id="projectsDropdown"
                     role="button"
@@ -54,32 +54,32 @@ const Header = () => {
                     aria-expanded="false"
                   >
                     Projects
-                  </a>
+                  </NavLink>
 
                   <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
                     <li>
-                      <a className="dropdown-item" href="/ongoing">
+                      <NavLink className="dropdown-item" to="/ongoing">
                         On Going Projects
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/completed">
+                      <NavLink className="dropdown-item" to="/completed">
                         Completed Projects
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
 
                 <li className="nav-item">
-                  <a href="/services" className="nav-link">Services</a>
+                  <NavLink to="/services" className="nav-link">Services</NavLink>
                 </li>
 
                 <li className="nav-item">
-                  <a href="/careers" className="nav-link">Careers</a>
+                  <NavLink to="/careers" className="nav-link">Careers</NavLink>
                 </li>
 
                 <li className="nav-item">
-                  <a href="/contact" className="nav-link">Contact Us</a>
+                  <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
                 </li>
               </ul>
             </div>
@@ -89,21 +89,18 @@ const Header = () => {
           <div className="col-auto col-xxl-2 col-lg-3 text-end d-none d-sm-flex">
             <div className="header-icon">
               <div className="header-button">
-                <a
-                  href="/src/assets/images/SStzigane.pdf"
+                <NavLink
+                  to="/src/assets/images/SStzigane.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-small btn-rounded btn-base-color btn-box-shadow me-15px"
                 >
                   Brochure
-                </a>
+                </NavLink>
               </div>
             </div>
 
-            <button id="theme-toggle" className="theme-toggle mt-25px d-none">
-              <span className="sun-icon">☀️</span>
-              <span className="moon-icon">🌙</span>
-            </button>
+           
           </div>
         </div>
       </nav>
