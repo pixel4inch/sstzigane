@@ -9,8 +9,10 @@ function App() {
   return (
     <>
      
-      <h1> SS TZIGANE WEBSITE</h1>
-     
+
+     <h4 className="alt-font fw-600 text-dark-gray mb-30px" >
+        How we can help?
+      </h4>
       
     </>
   )
