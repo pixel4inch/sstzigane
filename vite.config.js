@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // preview: {
-  //   allowedHosts: ['.onrender.com']
-  // }
+  preview: {
+    allowedHosts: ['.onrender.com']
+  }
 })

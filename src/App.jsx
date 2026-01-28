@@ -1,18 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+// COMPONENTS
+
+import Header from './components/common/Header'
+import AppRoutes from './routes/AppRoutes'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     
+     <Header/>
+     <AppRoutes/>
 
-     <h4 className="alt-font fw-600 text-dark-gray mb-30px" >
-        How we can help?
-      </h4>
+
+    
       
     </>
   )
