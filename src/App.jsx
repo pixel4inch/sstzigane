@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import Header from './components/common/Header'
 import AppRoutes from './routes/AppRoutes'
+import Footer from './components/common/Footer'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
      <Header/>
      <AppRoutes/>
+     <Footer/>
       
     </>
   )

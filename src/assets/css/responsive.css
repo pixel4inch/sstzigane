@@ -19734,7 +19734,7 @@
   header .navbar-brand .mobile-logo {
     visibility: visible !important;
     opacity: 1 !important;
-    width: auto !important;
+    width: 220px !important;
   }
   header .navbar-brand .mobile-logo:focus {
     outline: none;

@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="position-relative">
+    <header className="position-relative shadow-sm">
       <nav
         className="navbar navbar-expand-lg header-transparent bg-white header-reverse position-relative"
         data-header-hover="light"
@@ -13,8 +13,8 @@ const Header = () => {
           <div className="col-auto col-xxl-3 col-lg-3 me-lg-0 me-auto">
             <NavLink className="navbar-brand" to="/">
               <img src={logo} alt="SST Zigane Logo" className="default-logo" />
-              <img src={logo} alt="SST Zigane Logo" className="alt-logo" />
-              <img src={logo} alt="SST Zigane Logo" className="mobile-logo" />
+            <img src={logo} data-at2x="img/logo_main.png" alt="" className="alt-logo" />
+            <img src={logo} data-at2x="img/logo_main.png" alt="" className="mobile-logo" />
             </NavLink>
           </div>
 
@@ -46,7 +46,7 @@ const Header = () => {
 
                 {/* Dropdown */}
                 <li className="nav-item dropdown dropdown-with-icon-style02">
-                  <NavLink to="#"
+                  <NavLink to="javascript:valid(0)"
                     className="nav-link dropdown-toggle"
                     id="projectsDropdown"
                     role="button"
@@ -93,8 +93,9 @@ const Header = () => {
                   to="/src/assets/images/SStzigane.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-small btn-rounded btn-base-color btn-box-shadow me-15px"
+                  className="btn btn-small btn-rounded btn-base-color btn-box-shadow me-15px gap-1 d-flex"
                 >
+                  <i className="feather icon-feather-file icon-small me-3px align-middle"></i>
                   Brochure
                 </NavLink>
               </div>

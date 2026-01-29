@@ -1,15 +1,12 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import Atropos from 'atropos'
+import { gsap } from 'gsap'
 
-
+import Atropos from 'atropos/react';
 import PageHeader from '../components/common/PageHeader'
 import Founder from "../assets/img/Founder.png"
 import image01 from "../assets/img/about/image01.jpg"
 function About() {
-
-    
-
 
   return (
     <>
@@ -20,22 +17,18 @@ function About() {
             <div className="container">
                 <div className="row align-items-center justify-content-center">
                     <div className="col-lg-5 col-md-10 position-relative z-index-1 md-mb-40px">
-                        <div className="atropos my-atropos" ref={atroposRef}>
-                            <div className="atropos-scale" >
-                                <div className="atropos-rotate">
-                                    <div className="atropos-inner">
-                                        <div data-atropos-offset="3">
-                                            <img src={image01} className="border-radius-6px w-100" alt="image"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
+                        <Atropos className="my-atropos atropos">
+                            <img src={image01} className="border-radius-6px w-100" alt="image"/>
+
+                        </Atropos>
+                       
+                       
                         <div className="absolute-middle-right md-absolute-middle-center right-minus-45px md-right-auto d-inline-block text-center z-index-9">
-                            <a href="/" className="bg-white box-shadow-extra-large rounded-circle video-icon-box video-icon-extra-large popup-youtube d-inline-block" data-anime='{ "translate": [0, 0], "scale": [0,1], "duration": 1000, "delay": 300, "staggervalue": 300, "easing": "easeOutBack" }'>
+                            <a href="/" className="bg-white box-shadow-extra-large rounded-circle video-icon-box video-icon-extra-large popup-youtube d-inline-block" >
                                 <span>
                                     <span className="video-icon bg-white">
-                                        <i className="fa-solid fa-play text-base-color"></i>
+                                        <i className="fa-solid fa-play text-base-color "></i>
                                         <span className="video-icon-sonar">
                                             <span className="video-icon-sonar-bfr bg-base-color opacity-9"></span>
                                         </span>
