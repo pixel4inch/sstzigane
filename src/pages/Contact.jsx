@@ -32,7 +32,7 @@ function Contact() {
 
 </div>
 </div>
-</div>s
+</div>
 
 {/* <!-- FORM --> */}
 <div className="col-lg-6 offset-lg-1">
@@ -82,6 +82,19 @@ Send message
 
 </div>
 </div>
+</section>
+
+
+<section className="p-0">
+ <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3805.394498257088!2d78.37973067578066!3d17.48867179987826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI5JzE5LjIiTiA3OMKwMjInNTYuMyJF!5e0!3m2!1sen!2sin!4v1741335535345!5m2!1sen!2sin"
+                                width="100%"
+                                height="230px"
+                                style={{border: 0}}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
 </section>
     </>
   )

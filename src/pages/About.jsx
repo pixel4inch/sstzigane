@@ -120,7 +120,6 @@ function About() {
                                 
                                 <img src={Founder} alt="Founder" className="box-shadow-extra-large border-radius-6px me-3 col-lg-4 col-sm-8 col-6 mx-auto" style={{  float: 'left' }}
 />
-
                            
                                 Mr. Putta Sabarinath is a seasoned professional with over 12 years of experience in the safety, security, and building services engineering industry. Having built a strong foundation while working with leading corporate organizations, he transitioned into entrepreneurship with a clear vision to deliver high-quality, integrated engineering solutions.
     </p>                     <p  className="mb-2">In 2019, he joined Wetech Engineering Services as Executive Director, followed by the establishment of SS Tzigane India Pvt. Ltd. in 2022, further expanding his footprint in the building automation, safety, and security domain. Under his leadership, the organization has successfully executed multiple commercial, healthcare, pharmaceutical, and industrial projects across South India.</p>

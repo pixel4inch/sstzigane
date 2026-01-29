@@ -50,7 +50,15 @@ function Footer() {
                             <li><a href="javascript:valid(0)" target="_blank"><i className="feather icon-feather-instagram icon-very-small text-white me-12px" ></i> Instagram</a></li>
                         </ul>
                     </div>
+
+                    {/* <div className="scroll-progress d-xxl-block visible" >
+                        <a href="#" className="scroll-top" aria-label="scroll" >
+                            <span className="scroll-text" >Scroll</span><span className="scroll-line" style="user-select: auto;"><span className="scroll-point" style={{height: "65.5621%"}}></span></span>
+                        </a>
+                    </div> */}
+
                     {/* <!-- end footer column -->
+                    
                     <!-- start footer column --> */}
                     <div className="col-7 col-lg-3 col-sm-6 xs-mb-30px last-paragraph-no-margin order-4 order-sm-5 order-lg-5"> 
                         <span className="alt-font d-block text-white mb-5px">Location</span>
