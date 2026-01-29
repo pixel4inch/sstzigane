@@ -12,6 +12,7 @@ import "./assets/css/style.css"
 import "./assets/css/business.css"
 import "./assets/css/custome.css"
 import "./assets/css/responsive.css"
+import "./assets/css/animate.css"
 import 'atropos/css'
 
 
