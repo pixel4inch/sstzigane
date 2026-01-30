@@ -1,0 +1,217 @@
+
+{
+  "ongoing": [
+    {
+      "id": "1",
+      "Projects": "Indus Hospital",
+      "service": "Building Management system ( IBMS)",
+      "city":"Vizag",
+      "imgpath":"indus-viz.jpg",
+      "state":"Andhra Pradesh"
+      
+    },
+    {
+      "id": "2",
+      "Projects": "Sindhu Hospital",
+      "service": "Building Management system ( IBMS), Novac System, Vesda System & Critical Rooms Security Systems",
+      "city":"Hyderabad",
+      "imgpath":"SindhuHospital.jpg",
+      "state":"Telangana"
+    },
+    {
+      "id": "3",
+      "Projects": "NACINS ",
+      "service": "Building Management system ( IBMS) & Fire Alarm System",
+      "city":"Hindupur",
+      "imgpath":"NACINS.jpg",
+      "state":"Andhra Pradesh"
+    },
+     {
+      "id": "4",
+      "Projects": "KIMS Hospitals",
+      "service": "Fire Fighting & Fire Alarm System",
+      "imgpath":"kims_banglore.jpg",
+      "city":"Bangalore",
+      "state":"Karnataka"
+    },
+     {
+      "id": "4",
+      "Projects": "KIMS Hospitals",
+      "service": "Fire Alarm System",
+      "imgpath":"kims-mumbi.jpg",
+      "city":"Thane",
+      "state":"Maharashtra"
+    },
+    {
+      "id": "5",
+      "Projects": "HITEX - Hall 4",
+      "service": "Building Management system ( IBMS), CCTV, Access Control system",
+      "imgpath":"HITEX.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "6",
+      "Projects": "Pranava East crest ",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"PranavaEastcrest.jpg",
+      
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "7",
+      "Projects": "Vamsiram Temple tree ",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"VamsiramTempletree.jpg",
+      "city":"Tirupathi",
+      "state":"Andhra Pradesh"
+    },
+    {
+      "id": "8",
+      "Projects": "Central University ",
+      "service": "Building Management system ( IBMS)",
+      "imgpath":"centeraluniversityAnanthapuram.jpg",
+      "city":"Ananthapuram",
+      "state":"Andhra Pradesh"
+    },
+    {
+      "id": "9",
+      "Projects": "Karbonn corporate office",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"karbon.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "10",
+      "Projects": "Mahaveer Gateway",
+      "service": "Building Management system ( IBMS), Fire Fighting system, Fire Alarm System, Public Addressing system, CCTV, Access control system & External security system",
+      "imgpath":"Mahaveer-Gateway.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "11",
+      "Projects": "AIIMS Hospitals",
+      "service": "Building Management system ( IBMS)",
+      "imgpath":"AIIMS-Bibinagar.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+     {
+      "id": "1",
+      "Projects": "TS REDCO",
+      "service": "Fire Alarm System & CCTV System",
+      "imgpath":"TSREDCO.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+         {
+      "id": "1",
+      "Projects": "The Institute of Chartered Accountants of India ( ICAI)",
+      "service": "Complete MEP",
+      "imgpath":"icabhavan.jpg",
+      "city":"Guntur",
+      "state":"Andhra Pradesh"
+    }
+
+    
+    
+  ],
+
+   "completedgoing": [
+{
+      "id": "1",
+      "Projects": "TECH MAHINDRA",
+      "service": "Electrical system, Fire Alarm System, Public Addressing system, CCTV,  & Access control system",
+      "imgpath":"TECHMAHINDRA.jpg",
+      "city":"Warangal",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "Pranava Business Park",
+      "service": "Building Management system ( IBMS),",
+      "imgpath":"PranavaBusinessPark.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "Pranava Business Square",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"PranavaBusinessSquare.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "Pranava Inerlux",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"PranavaInerlux.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "EY Global",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+       "imgpath":"EYGlobal.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "EY Global",
+      "service": "Fire Fighting system, Fire Alarm System & Public Addressing system",
+      "imgpath":"EYGlobal2.jpg",
+      "city":"Bangalore",
+      "state":"Karnataka"
+    },
+    {
+      "id": "1",
+      "Projects": "Hetero Corporate Office",
+      "service": "Building Management system ( IBMS), CCTV & Access Control system",
+      "imgpath":"HeteroCorporateOffice.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+     {
+      "id": "1",
+      "Projects": "Micron Technologies",
+      "service": "Fire Fighting system",
+      "imgpath":"MicronTechnologies.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "Aryastha Life Sciences",
+      "service": "Building Management system ( IBMS)",
+      "imgpath":"AryasthaLifeSciences.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+    {
+      "id": "1",
+      "Projects": "HIKAL",
+      "service": "Fire Alarm System, Public Addressing system, CCTV & Networking system",
+      "imgpath":"HIKAL.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    },
+     {
+      "id": "1",
+      "Projects": "HCA Global",
+      "service": "Building Management system ( IBMS)",
+      "imgpath":"HCAGlobal.jpg",
+      "city":"Hyderabad",
+      "state":"Telangana"
+    }
+   
+
+   ]
+
+
+}

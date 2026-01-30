@@ -1,7 +1,7 @@
 import React from 'react'
 import PageHeader from '../components/common/PageHeader'
 
-import CareerImage from "../assets/img/career.jpg"
+import CareerImage from "../../public/img/career.jpg"
 
 function Careers() {
   return (

@@ -55,7 +55,8 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li:hover a,
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li.active a{
-    opacity: .5;
+    opacity: 1;
+     color: var(--base-color);
 }
 /* bg color */
 .bg-gradient-sherpa-blue-black {

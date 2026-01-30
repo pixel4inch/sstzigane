@@ -1,4 +1,4 @@
-import Video from '../../assets/img/SsTziganeIntro.mp4'
+import Video from '/img/SsTziganeIntro.mp4'
 
 function PageHeader({ pagetitle }) {
   return (

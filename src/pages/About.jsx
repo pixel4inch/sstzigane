@@ -10,9 +10,9 @@ import PageHeader from '../components/common/PageHeader'
 import ReadMoreText from '../components/common/ReadMoreText';
 
 // Assets
-import Founder from "../assets/img/Founder.png"
-import image01 from "../assets/img/about/image01.jpg"
-import Video from '../assets/img/SsTziganeIntro.mp4'
+import Founder from "../../public/img/Founder.png"
+import image01 from "../../public/img/about/image01.jpg"
+import Video from '../../public/img/SsTziganeIntro.mp4'
 
 function About() {
       return (
