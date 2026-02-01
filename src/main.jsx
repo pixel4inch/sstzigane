@@ -15,6 +15,11 @@ import "./assets/css/responsive.css"
 import "./assets/css/animate.css"
 import 'atropos/css'
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/autoplay'
+import 'react-circular-progressbar/dist/styles.css';
+
 
 
 

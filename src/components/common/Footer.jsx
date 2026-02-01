@@ -22,7 +22,6 @@ function Footer() {
                         <span className="alt-font d-block text-white mb-5px">Company</span>
                         <ul>
                             <li><NavLink to="/about">About</NavLink></li>
-                            <li><NavLink to="/profile">Profile</NavLink></li>
                             <li><NavLink to="/partners">Partner</NavLink></li>
                             <li><NavLink to="/careers">Careers</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
